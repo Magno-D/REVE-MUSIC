@@ -321,7 +321,7 @@ function play(guild, song) {
 }
 });
 const developers = ["331975722283302912","399164491201249282","346810648161943552"]
-const adminprefix = "M";
+const adminprefix = "1";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
