@@ -320,7 +320,7 @@ function play(guild, song) {
 })
 }
 });
-const developers = ["331975722283302912","399164491201249282","346810648161943552"]
+const developers = ["331975722283302912","399164491201249282","335442086645989376"]
 const adminprefix = "1";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
