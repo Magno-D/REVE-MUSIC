@@ -27,9 +27,9 @@ client.on("ready", function() {
 	console.log("ready");
 	
 	client.user.setStatus("Online");
-	client.user.setGame("Mplay | Misk...");
+	client.user.setGame("1play | Reve");
 });
-const prefix = "M"
+const prefix = "1"
 client.on('message', async msg => {
     if (msg.author.bot) return undefined;
     if (!msg.content.startsWith(prefix)) return undefined;
